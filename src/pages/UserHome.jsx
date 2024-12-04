@@ -46,8 +46,8 @@ export default function UserHome() {
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50">
       <header className="bg-gradient-to-r from-purple-700 to-pink-600 text-white py-6">
         <div className="container mx-auto px-4">
-          <h1 className="text-3xl font-bold mb-2">Welcome to BlogSpace</h1>
-          <p className="text-purple-100">Discover amazing stories and insights</p>
+          <a href="/admin"><h1 className="text-3xl font-bold mb-2">Welcome to BlogSpace</h1>
+         </a> <p className="text-purple-100">Discover amazing stories and insights</p>
         </div>
       </header>
 
